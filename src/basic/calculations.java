@@ -1,10 +1,12 @@
+package basic;
+
 public class calculations {
     void SI() {
         int principal = 12000;
         int rate = 2;
         int time = 4;
         int simpleInterest;
-        simpleInterest = principal * rate * time;
+        simpleInterest = (principal * rate * time)/100;
         System.out.println("Simple Interest ");
         System.out.println(simpleInterest);
     }

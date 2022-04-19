@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.Scanner;
 public class calculationsWithInput {
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class calculationsWithInput {
         System.out.print("Enter the time ");
         int time=demo1.nextInt();
         int simpleInterest;
-        simpleInterest = principal * rate * time;
+        simpleInterest =( principal * rate * time)/100;
         System.out.print("Simple Interest ");
         System.out.println(simpleInterest);
         System.out.print("Enter the breadth of the triangle ");

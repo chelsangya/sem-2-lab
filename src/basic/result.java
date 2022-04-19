@@ -1,10 +1,12 @@
+package basic;
+
 public class result {
 //    Write a program to calculate the total marks of four subjects of a student and the total
-//    percentage secured. And use following conditions to generate the final result;
+//    percentage secured. And use following conditions to generate the final basic.result;
 //    a. If equal to or more than 70 -> First Class
 //    b. If more than 59 -> Upper second Class
 //    c. If more than 49 -> Second class
-//    d. If more than 39 -> Third class and if below than 40 the result is fail.
+//    d. If more than 39 -> Third class and if below than 40 the basic.result is fail.
 public static void main(String[] args) {
     int maths=70;
     int physics=59;

@@ -1,7 +1,9 @@
+package usingScanner;
 import java.util.Scanner;
-public class resultWithInput {
+
+public class Q13 {
     public static void main(String[] args) {
-        Scanner demo= new Scanner(System.in);
+        Scanner demo=new Scanner(System.in);
         System.out.print("Enter the marks secured in Maths ");
         int maths= demo.nextInt();
         System.out.print("Enter the marks secured in Physics ");
@@ -14,13 +16,6 @@ public class resultWithInput {
         total=maths+physics+chemistry+computer;
         double percentage;
         percentage=total/4;
-        String division;
-        division= percentage>=70? "First Class": percentage>59? "Upper Second Class": percentage>49? "Second Class": percentage>39?"Third Class":"Fail";
-        System.out.print("Total Marks: ");
-        System.out.println(total);
-        System.out.print("Percentage: ");
-        System.out.println(percentage);
-        System.out.print("Result: ");
-        System.out.println(division);
+        System.out.println("Total Marks:"+total+"\nPercentage: "+percentage+"%");
     }
 }
