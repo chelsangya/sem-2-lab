@@ -1,6 +1,6 @@
 package basic;
 
-public class vote{
+public class Vote{
     public static void main(String[] args) {
         int age=18;
         String eligibility;

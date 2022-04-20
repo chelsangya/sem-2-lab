@@ -1,6 +1,6 @@
 package basic;
 
-public class result {
+public class Result {
 //    Write a program to calculate the total marks of four subjects of a student and the total
 //    percentage secured. And use following conditions to generate the final basic.result;
 //    a. If equal to or more than 70 -> First Class

@@ -1,7 +1,7 @@
 package basic;
 
 import java.util.Scanner;
-public class calculationsWithInput {
+public class CalculationsWithInput {
     public static void main(String[] args) {
         Scanner demo1=new Scanner(System.in);
         System.out.print("Enter the principal ");

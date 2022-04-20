@@ -1,7 +1,7 @@
 package basic;
 
 import java.util.Scanner;
-public class resultWithInput {
+public class ResultWithInput {
     public static void main(String[] args) {
         Scanner demo= new Scanner(System.in);
         System.out.print("Enter the marks secured in Maths ");

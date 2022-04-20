@@ -1,6 +1,6 @@
 package basic;
 
-public class ternaryOperator {
+public class TernaryOperator {
         public static void main(String[] args) {
             int age=18;
             String eligibility;

@@ -1,7 +1,5 @@
 package usingJOptionPane;
-
 import javax.swing.*;
-
 public class Q13 {
     public static void main(String[] args) {
         int maths,chem,phy,comp,total;

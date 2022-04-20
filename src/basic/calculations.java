@@ -1,6 +1,6 @@
 package basic;
 
-public class calculations {
+public class Calculations {
     void SI() {
         int principal = 12000;
         int rate = 2;
@@ -32,7 +32,7 @@ public class calculations {
         System.out.println(volume);
     }
     public static void main(String[] args) {
-       calculations demo= new calculations();
+       Calculations demo= new Calculations();
        demo.SI();
        demo.areaOfTheTriangle();
        demo.volumeOfTheCube();
