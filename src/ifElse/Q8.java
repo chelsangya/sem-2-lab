@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Q8 {
     public static void main(String[] args) {
         Scanner demo= new Scanner(System.in);
-        String val;
+        char val;
         System.out.print("Enter the character ");
-        val= demo.nextLine();
-        val.toUpperCase();
-        if ((val=="A")||(val=="E")||(val=="I")||(val=="O")||(val=="U"))
+        val= demo.next().charAt(0);
+        Character.toUpperCase(val);
+        if ((val=='A')||(val=='E')||(val=='I')||(val=='O')||(val=='U'))
         {
             System.out.println("It is a vowel");
         } else{
