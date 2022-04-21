@@ -8,7 +8,13 @@ public class Q13 {
         int amount,notes;
         System.out.print("Enter the amount ");
         amount= demo.nextInt();
+        if (amount%5==0){
         notes=amount/5;
         System.out.println("The total number of notes is "+notes);
+        }
+        else{
+            System.out.println("Invalid Input");
+        }
+
     }
 }
