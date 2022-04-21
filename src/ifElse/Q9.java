@@ -9,7 +9,8 @@ public class Q9 {
         System.out.println("Enter the character ");
         char char1 ;
         char1= demo.next().charAt(0);
-        if((char1 >= 'a' && char1 <= 'z') || (char1 >= 'A' && char1 <= 'Z')) {
+        Character.toUpperCase(char1);
+        if((char1 >= 'A' && char1 <= 'Z')) {
             System.out.println(char1 + " is an alphabet.");
         } else if(char1 >= '0' && char1 <= '9') {
             System.out.println(char1 + " is a digit.");
