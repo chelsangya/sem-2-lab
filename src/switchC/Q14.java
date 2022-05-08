@@ -30,5 +30,6 @@ public class Q14 {
                 System.out.println("The triangle is scalene.");
                 break;
         }
+
     }
 }
